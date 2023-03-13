@@ -11,31 +11,8 @@ const Footer = () => {
               <use xlinkHref='#bootstrap' />
             </svg>
           </a>
-          <span className='text-muted'>© 2021 Company, Inc</span>
+          <span className='text-muted'>© 2023 - Farhana - UKM</span>
         </div>
-        <ul className='nav col-md-4 justify-content-end list-unstyled d-flex'>
-          <li className='ms-3'>
-            <a className='text-muted' href='/'>
-              <svg className='bi' width={24} height={24}>
-                <use xlinkHref='#twitter' />
-              </svg>
-            </a>
-          </li>
-          <li className='ms-3'>
-            <a className='text-muted' href='/'>
-              <svg className='bi' width={24} height={24}>
-                <use xlinkHref='#instagram' />
-              </svg>
-            </a>
-          </li>
-          <li className='ms-3'>
-            <a className='text-muted' href='/'>
-              <svg className='bi' width={24} height={24}>
-                <use xlinkHref='#facebook' />
-              </svg>
-            </a>
-          </li>
-        </ul>
       </footer>
     </div>
   )
